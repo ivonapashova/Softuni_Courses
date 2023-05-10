@@ -12,4 +12,5 @@ for _ in range(len(numbers)):
 from collections import deque
 
 numbers = deque(input().split())
-print(number.reverse(), sep=" ")
+number.reverse()
+print(number, sep=" ")
